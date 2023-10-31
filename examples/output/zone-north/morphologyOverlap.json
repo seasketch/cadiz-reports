@@ -1,0 +1,85 @@
+{
+  "metrics": [
+    {
+      "metricId": "morphologyOverlap",
+      "sketchId": "21832",
+      "classId": "Vegetación de alta densidad",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "zone-north"
+      }
+    },
+    {
+      "metricId": "morphologyOverlap",
+      "sketchId": "21832",
+      "classId": "Sedimentos no consolidados finos-medios",
+      "groupId": null,
+      "geographyId": null,
+      "value": 4958340.146477213,
+      "extra": {
+        "sketchName": "zone-north"
+      }
+    },
+    {
+      "metricId": "morphologyOverlap",
+      "sketchId": "21832",
+      "classId": "Sedimentos no consolidados muy finos",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "zone-north"
+      }
+    },
+    {
+      "metricId": "morphologyOverlap",
+      "sketchId": "21832",
+      "classId": "Afloramientos rocosos masivos",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "zone-north"
+      }
+    },
+    {
+      "metricId": "morphologyOverlap",
+      "sketchId": "21832",
+      "classId": "Sedimentos no consolidados medio-gruesos",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "zone-north"
+      }
+    }
+  ],
+  "sketch": {
+    "id": 21832,
+    "bbox": [
+      -6.324736,
+      36.580025,
+      -6.2945857,
+      36.598503
+    ],
+    "type": "Feature",
+    "properties": {
+      "5235": "zone-north",
+      "id": "21832",
+      "name": "zone-north",
+      "postId": null,
+      "userId": "128",
+      "userSlug": "Peter",
+      "createdAt": "2023-10-30T22:15:58.796122+00:00",
+      "updatedAt": "2023-10-30T22:15:58.796122+00:00",
+      "collectionId": null,
+      "isCollection": false,
+      "sharedInForum": false,
+      "sketchClassId": "608",
+      "userAttributes": null
+    },
+    "geometry": null
+  }
+}

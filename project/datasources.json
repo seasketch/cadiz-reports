@@ -6,7 +6,6 @@
       "subdivided"
     ],
     "classKeys": [],
-    "propertiesToKeep": ["gid"],
     "url": "https://d3p1dsef9f0gjr.cloudfront.net/"
   },
   {
@@ -16,7 +15,132 @@
       "subdivided"
     ],
     "classKeys": [],
-    "propertiesToKeep": ["UNION"],
     "url": "https://d3muy0hbwp5qkl.cloudfront.net"
+  },
+  {
+    "datasourceId": "planning_area",
+    "geo_type": "vector",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 1,
+          "sum": null,
+          "area": 70407504.46853687
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "FondosMarinosdelaBahiadeCadiz",
+    "classKeys": [],
+    "created": "2023-10-30T19:52:49.305Z",
+    "lastUpdated": "2023-10-30T19:52:49.305Z",
+    "src": "data/src/Gulf of Cadiz/Analytics/FondosMarinosdelaBahiadeCadiz.geojson",
+    "propertiesToKeep": []
+  },
+  {
+    "datasourceId": "marine_communities",
+    "geo_type": "vector",
+    "keyStats": {
+      "Name": {
+        "Asociación de Caulerpa prolifera sobre arenas fangosas someras en modo calmo": {
+          "count": 2,
+          "area": 5388730.650722562
+        },
+        "Asociación de Cymodocea nodosa sobre arenas fangosas someras en modo calmo": {
+          "count": 9,
+          "area": 897566.6832164815
+        },
+        "Asociación de Zostera noltii sobre arenas fangosas someras en modo calmo": {
+          "count": 5,
+          "area": 1157304.445857265
+        },
+        "Comunidad de Algas Esciáfilas Infralitorales en Régimen Calmo con facies de gorgoniarios": {
+          "count": 4,
+          "area": 3607597.4673459525
+        },
+        "Comunidad de Algas Fotófilas Infralitorales": {
+          "count": 3,
+          "area": 505596.47170791565
+        },
+        "Comunidad de Venus": {
+          "count": 5,
+          "area": 62779029.05540447
+        },
+        "Sustratos duros no vegetados": {
+          "count": 1,
+          "area": 62.57706482295708
+        }
+      },
+      "total": {
+        "total": {
+          "count": 29,
+          "sum": null,
+          "area": 74335887.35131948
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "marine_communities_clipped",
+    "classKeys": [
+      "Name"
+    ],
+    "created": "2023-10-30T22:12:53.697Z",
+    "lastUpdated": "2023-10-30T22:12:53.697Z",
+    "src": "data/src/Gulf of Cadiz/Analytics/marine_communities_clipped.geojson",
+    "propertiesToKeep": [
+      "Name"
+    ]
+  },
+  {
+    "src": "data/src/Gulf of Cadiz/Analytics/seabed_morphology_clipped.geojson",
+    "layerName": "seabed_morphology_clipped",
+    "geo_type": "vector",
+    "datasourceId": "seabed_morphology",
+    "formats": [
+      "fgb"
+    ],
+    "classKeys": [
+      "Name"
+    ],
+    "created": "2023-10-30T22:13:31.066Z",
+    "lastUpdated": "2023-10-30T22:13:31.066Z",
+    "keyStats": {
+      "Name": {
+        "Afloramientos rocosos masivos": {
+          "count": 6,
+          "area": 4039402.869997012
+        },
+        "Sedimentos no consolidados finos-medios": {
+          "count": 7,
+          "area": 51122687.64061331
+        },
+        "Sedimentos no consolidados medio-gruesos": {
+          "count": 2,
+          "area": 2305920.013589552
+        },
+        "Sedimentos no consolidados muy finos": {
+          "count": 5,
+          "area": 6291693.766268409
+        },
+        "Vegetación de alta densidad": {
+          "count": 4,
+          "area": 6784155.606080359
+        }
+      },
+      "total": {
+        "total": {
+          "count": 24,
+          "sum": null,
+          "area": 70543859.89654864
+        }
+      }
+    },
+    "propertiesToKeep": [
+      "Name"
+    ]
   }
 ]

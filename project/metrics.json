@@ -1,13 +1,101 @@
-[{
-  "metricId": "boundaryAreaOverlap",
-  "type": "areaOverlap",
-  "classes": [
-      {
-          "classId": "eez",
-          "display": "EEZ",
-          "datasourceId": "global-clipping-eez-land-union",
-          "objectiveId": "eez",
-          "layerId": ""
-      }
-  ]
-}]
+[
+    {
+        "metricId": "boundaryAreaOverlap",
+        "type": "areaOverlap",
+        "classes": [
+            {
+                "classId": "eez",
+                "display": "EEZ",
+                "datasourceId": "global-clipping-eez-land-union",
+                "objectiveId": "eez",
+                "layerId": ""
+            }
+        ]
+    },
+    {
+        "metricId": "communitiesOverlap",
+        "type": "areaOverlap",
+        "layerId": "3vO898eq3",
+        "classes": [
+            {
+                "classKey": "Name",
+                "classId": "Asociación de Cymodocea nodosa sobre arenas fangosas someras en modo calmo",
+                "display": "Cymodocea nodosa",
+                "datasourceId": "marine_communities"
+            },
+            {
+                "classKey": "Name",
+                "classId": "Asociación de Zostera noltii sobre arenas fangosas someras en modo calmo",
+                "display": "Zostera noltii",
+                "datasourceId": "marine_communities"
+            },
+            {
+                "classKey": "Name",
+                "classId": "Asociación de Caulerpa prolifera sobre arenas fangosas someras en modo calmo",
+                "display": "Caulerpa prolifera",
+                "datasourceId": "marine_communities"
+            },
+            {
+                "classKey": "Name",
+                "classId": "Comunidad de Venus",
+                "display": "Venus spp.",
+                "datasourceId": "marine_communities"
+            },
+            {
+                "classKey": "Name",
+                "classId": "Sustratos duros no vegetados",
+                "display": "Sustratos duros no vegetados",
+                "datasourceId": "marine_communities"
+            },
+            {
+                "classKey": "Name",
+                "classId": "Comunidad de Algas Esciáfilas Infralitorales en Régimen Calmo con facies de gorgoniarios",
+                "display": "Algas Esciáfilas Infralitorales",
+                "datasourceId": "marine_communities"
+            },
+            {
+                "classKey": "Name",
+                "classId": "Comunidad de Algas Fotófilas Infralitorales",
+                "display": "Algas Fotófilas Infralitorales",
+                "datasourceId": "marine_communities"
+            }
+        ]
+    },
+    {
+      "metricId": "morphologyOverlap",
+      "type": "areaOverlap",
+      "layerId": "dQyMGFiE4",
+      "classes": [
+          {
+              "classKey": "Name",
+              "classId": "Vegetación de alta densidad",
+              "display": "Vegetación de alta densidad",
+              "datasourceId": "seabed_morphology"
+          },
+          {
+              "classKey": "Name",
+              "classId": "Sedimentos no consolidados finos-medios",
+              "display": "Sedimentos no consolidados finos-medios",
+              "datasourceId": "seabed_morphology"
+          },
+          {
+              "classKey": "Name",
+              "classId": "Sedimentos no consolidados muy finos",
+              "display": "Sedimentos no consolidados muy finos",
+              "datasourceId": "seabed_morphology"
+          },
+          {
+              "classKey": "Name",
+              "classId": "Afloramientos rocosos masivos",
+              "display": "Afloramientos rocosos masivos",
+              "datasourceId": "seabed_morphology"
+          },
+          {
+              "classKey": "Name",
+              "classId": "Sedimentos no consolidados medio-gruesos",
+              "display": "Sedimentos no consolidados medio-gruesos",
+              "datasourceId": "seabed_morphology"
+          }
+      ]
+  }
+]
