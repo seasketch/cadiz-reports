@@ -35,11 +35,8 @@ export async function clipToOcean(
    * with the same gid property (assigned one per country) into one feature before clipping
    */
   const removeLand: DatasourceClipOperation = {
-    datasourceId: "global-clipping-osm-land",
-    operation: "difference",
-    options: {
-      unionProperty: "gid", // gid is assigned per country
-    },
+    datasourceId: "bay_full_ids",
+    operation: "intersection",
   };
 
   // Create a function that will perform the clip operations in order

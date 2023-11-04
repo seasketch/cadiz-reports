@@ -15,10 +15,12 @@
     }
   ],
   "preprocessingFunctions": [
-    "src/functions/clipToLand.ts",
     "src/functions/clipToOcean.ts"
   ],
   "geoprocessingFunctions": [
-    "src/functions/area.ts"
+    "src/functions/area.ts",
+    "src/functions/morphologyOverlap.ts",
+    "src/functions/communitiesOverlap.ts",
+    "src/functions/seagrassOverlap.ts"
   ]
 }

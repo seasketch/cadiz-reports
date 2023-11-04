@@ -24,7 +24,9 @@ export const SizeCard = () => {
             📐
             <Trans i18nKey="SizeCard sketch size message">
               This sketch is{" "}
-              <b>{{ area: Number.format(Math.round(data.area * 1e-6)) }}</b>{" "}
+              <b>
+                {{ area: Number.format(Math.round(data.area * 1e-4) / 100) }}
+              </b>{" "}
               square kilometers
             </Trans>
           </p>

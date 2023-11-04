@@ -33,8 +33,7 @@ export const MorphologyCard: React.FunctionComponent = () => {
   const metricGroup = project.getMetricGroup("morphologyOverlap", t);
   const precalcMetrics = project.getPrecalcMetrics(metricGroup, "area");
 
-  const mapLabel = t("Map");
-  const benthicLabel = t("Feature");
+  const classLabel = t("Class");
   const areaWithin = t("Area Within Plan");
   const percAreaWithin = t("% Area Within Plan");
   const sqKmLabel = t("km²");
@@ -72,9 +71,9 @@ export const MorphologyCard: React.FunctionComponent = () => {
                     metricGroup={metricGroup}
                     columnConfig={[
                       {
-                        columnLabel: benthicLabel,
+                        columnLabel: classLabel,
                         type: "class",
-                        width: 40,
+                        width: 35,
                       },
                       {
                         columnLabel: areaWithin,
@@ -85,11 +84,12 @@ export const MorphologyCard: React.FunctionComponent = () => {
                             Math.round(
                               squareMeterToKilometer(
                                 typeof val === "string" ? parseInt(val) : val
-                              )
-                            )
+                              ) * 100
+                            ) / 100
                           ),
                         valueLabel: sqKmLabel,
-                        width: 30,
+                        width: 35,
+                        colStyle: { textAlign: "center" },
                       },
                       {
                         columnLabel: percAreaWithin,
@@ -131,42 +131,10 @@ export const MorphologyCard: React.FunctionComponent = () => {
                 )}
 
                 <Collapse title={t("Learn more")}>
-                  <Trans i18nKey="Geomorphology Card - learn more">
+                  <Trans id="Morphology card - learn more">
                     <p>
-                      ℹ️ Overview: Seafloor features were identified based on
-                      geomorphology, which classifies features using depth,
-                      seabed slope, and other environmental characteristics.
-                    </p>
-                    <p>
-                      In the Seafloor Geomorphic Features dataset, the seafloor
-                      is split into shelves (shallowest), slopes, and abysses
-                      (deepest). These three features are mutually exclusive.
-                      Basins, canyons, escarpments, plateaus, rises, and sills
-                      occur within these three features.
-                    </p>
-                    <p>
-                      🎯 Planning Objective: No identified planning objectives
-                      for geomorphic features.
-                    </p>
-                    <p>
-                      🗺️ Source Data: Seafloor Geomorphic Features Map.{" "}
-                      <a href="https://doi.org/10.1016/j.margeo.2014.01.011">
-                        Harris, P.T., Macmillan-Lawler, M., Rupp, J. and Baker,
-                        E.K. 2014. Geomorphology of the oceans. Marine Geology,
-                        352: 4-24.
-                      </a>{" "}
-                      <a href="https://bluehabitats.org/">
-                        https://bluehabitats.org/
-                      </a>
-                    </p>
-                    <p>
-                      📈 Report: The percentage of each feature type within this
-                      plan is calculated by finding the overlap of each feature
-                      type with the plan, summing its area, then dividing it by
-                      the total area of each feature type found within the
-                      selected nearshore planning area. If the plan includes
-                      multiple areas that overlap, the overlap is only counted
-                      once.
+                      This report shows overlap with seabed morphological
+                      classes within the proposed area.
                     </p>
                   </Trans>
                 </Collapse>

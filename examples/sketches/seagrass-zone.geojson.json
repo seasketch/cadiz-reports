@@ -1,0 +1,52 @@
+{
+    "id": 21848,
+    "bbox": [
+        -6.235814,
+        36.46631,
+        -6.2191205,
+        36.479164
+    ],
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -6.235813877,
+                    36.474592936
+                ],
+                [
+                    -6.231107778,
+                    36.466309938
+                ],
+                [
+                    -6.219120543,
+                    36.46995171
+                ],
+                [
+                    -6.224448203,
+                    36.479162487
+                ],
+                [
+                    -6.235813877,
+                    36.474592936
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "5235": "seagrass-zone",
+        "id": "21848",
+        "name": "seagrass-zone",
+        "postId": null,
+        "userId": "128",
+        "userSlug": "Peter",
+        "createdAt": "2023-11-01T20:09:13.372659+00:00",
+        "updatedAt": "2023-11-01T20:09:13.372659+00:00",
+        "collectionId": null,
+        "isCollection": false,
+        "sharedInForum": false,
+        "sketchClassId": "608",
+        "userAttributes": null
+    }
+}

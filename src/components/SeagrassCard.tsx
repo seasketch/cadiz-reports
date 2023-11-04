@@ -26,14 +26,14 @@ import { Trans, useTranslation } from "react-i18next";
 
 const Number = new Intl.NumberFormat("en", { style: "decimal" });
 
-export const CommunitiesCard: React.FunctionComponent = () => {
+export const SeagrassCard: React.FunctionComponent = () => {
   const [{ isCollection }] = useSketchProperties();
   const { t } = useTranslation();
 
-  const metricGroup = project.getMetricGroup("communitiesOverlap", t);
+  const metricGroup = project.getMetricGroup("seagrassOverlap", t);
   const precalcMetrics = project.getPrecalcMetrics(metricGroup, "area");
 
-  const classLabel = t("Community");
+  const classLabel = t("Species");
   const areaWithin = t("Area Within Plan");
   const percAreaWithin = t("% Area Within Plan");
   const sqKmLabel = t("km²");
@@ -41,8 +41,8 @@ export const CommunitiesCard: React.FunctionComponent = () => {
   return (
     <>
       <ResultsCard
-        title={t("Marine Communities")}
-        functionName="communitiesOverlap"
+        title={t("Seagrass Occurence")}
+        functionName="seagrassOverlap"
         useChildCard={true}
       >
         {(data: ReportResult) => {
@@ -62,7 +62,7 @@ export const CommunitiesCard: React.FunctionComponent = () => {
           return (
             <>
               <ToolbarCard
-                title={t("Marine Communities")}
+                title={t("Seagrass Occurence")}
                 items={<LayerToggle layerId={metricGroup.layerId} />}
               >
                 <Translator>
@@ -83,7 +83,7 @@ export const CommunitiesCard: React.FunctionComponent = () => {
                           Number.format(
                             Math.round(
                               squareMeterToKilometer(
-                                typeof val === "string" ? parseInt(val) : val
+                                typeof val === "string" ? parseFloat(val) : val
                               ) * 100
                             ) / 100
                           ),
@@ -131,41 +131,10 @@ export const CommunitiesCard: React.FunctionComponent = () => {
                 )}
 
                 <Collapse title={t("Learn more")}>
-                  <Trans id="Communities card - learn more">
+                  <Trans id="Seagrass card - learn more">
                     <p>
-                      This report shows the overlap with marine communities
-                      within the proposed area.
-                      <br />
-                      <br />
-                      Full community names:
-                      <br />
-                      <br />
-                      <b>Cymodocea nodosa</b> - Asociación de Cymodocea nodosa
-                      sobre arenas fangosas someras en modo calmo
-                      <br />
-                      <br />
-                      <b>Zostera noltii</b> - Asociación de Zostera noltii sobre
-                      arenas fangosas someras en modo calmo
-                      <br />
-                      <br />
-                      <b>Caulerpa prolifera</b> - Asociación de Caulerpa
-                      prolifera sobre arenas fangosas someras en modo calmo
-                      <br />
-                      <br />
-                      <b>Venus spp.</b> - Comunidad de Venus
-                      <br />
-                      <br />
-                      <b>Sustratos duros no vegetados</b> - Sustratos duros no
-                      vegetados
-                      <br />
-                      <br />
-                      <b>Algas Esciáfilas Infralitorales</b> - Comunidad de
-                      Algas Esciáfilas Infralitorales en Régimen Calmo con
-                      facies de gorgoniarios
-                      <br />
-                      <br />
-                      <b>Algas Fotófilas Infralitorales</b> - Comunidad de Algas
-                      Fotófilas Infralitorales
+                      This report shows overlap with seagrass species within the
+                      proposed area.
                     </p>
                   </Trans>
                 </Collapse>

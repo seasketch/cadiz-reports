@@ -1,0 +1,125 @@
+{
+    "id": 21849,
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "id": 21848,
+            "bbox": [
+                -6.235814,
+                36.46631,
+                -6.2191205,
+                36.479164
+            ],
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -6.235813877,
+                            36.474592936
+                        ],
+                        [
+                            -6.231107778,
+                            36.466309938
+                        ],
+                        [
+                            -6.219120543,
+                            36.46995171
+                        ],
+                        [
+                            -6.224448203,
+                            36.479162487
+                        ],
+                        [
+                            -6.235813877,
+                            36.474592936
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "5235": "seagrass-zone",
+                "id": "21848",
+                "name": "seagrass-zone",
+                "postId": null,
+                "userId": "128",
+                "userSlug": "Peter",
+                "createdAt": "2023-11-01T20:09:13.372659+00:00",
+                "updatedAt": "2023-11-01T20:57:58.382201+00:00",
+                "collectionId": "21849",
+                "isCollection": false,
+                "sharedInForum": false,
+                "sketchClassId": "608",
+                "userAttributes": null
+            }
+        },
+        {
+            "id": 21832,
+            "bbox": [
+                -6.324736,
+                36.580025,
+                -6.2945857,
+                36.598503
+            ],
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -6.324736035,
+                            36.596908854
+                        ],
+                        [
+                            -6.32354589,
+                            36.580026384
+                        ],
+                        [
+                            -6.294585711,
+                            36.581300662
+                        ],
+                        [
+                            -6.29537914,
+                            36.598501349
+                        ],
+                        [
+                            -6.324736035,
+                            36.596908854
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "5235": "zone-north",
+                "id": "21832",
+                "name": "zone-north",
+                "postId": null,
+                "userId": "128",
+                "userSlug": "Peter",
+                "createdAt": "2023-10-30T22:15:58.796122+00:00",
+                "updatedAt": "2023-11-01T20:57:59.630636+00:00",
+                "collectionId": "21849",
+                "isCollection": false,
+                "sharedInForum": false,
+                "sketchClassId": "608",
+                "userAttributes": null
+            }
+        }
+    ],
+    "properties": {
+        "4767": "collection",
+        "id": "21849",
+        "name": "collection",
+        "postId": null,
+        "userId": "128",
+        "userSlug": "Peter",
+        "createdAt": "2023-11-01T20:57:55.077233+00:00",
+        "updatedAt": "2023-11-01T20:57:59.630636+00:00",
+        "collectionId": null,
+        "isCollection": true,
+        "sharedInForum": false,
+        "sketchClassId": "491",
+        "userAttributes": null
+    }
+}

@@ -13,13 +13,13 @@ const TabReport = () => {
 
   return (
     <>
-      <div style={{ marginTop: 5 }}>
+      {/* <div style={{ marginTop: 5 }}>
         <SegmentControl
           value={tab}
           onClick={(segment) => setTab(segment)}
           segments={segments}
         />
-      </div>
+      </div> */}
       <ReportPage hidden={!enableAllTabs && tab !== viabilityId}>
         <ViabilityPage />
       </ReportPage>

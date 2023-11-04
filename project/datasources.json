@@ -96,18 +96,8 @@
     ]
   },
   {
-    "src": "data/src/Gulf of Cadiz/Analytics/seabed_morphology_clipped.geojson",
-    "layerName": "seabed_morphology_clipped",
-    "geo_type": "vector",
     "datasourceId": "seabed_morphology",
-    "formats": [
-      "fgb"
-    ],
-    "classKeys": [
-      "Name"
-    ],
-    "created": "2023-10-30T22:13:31.066Z",
-    "lastUpdated": "2023-10-30T22:13:31.066Z",
+    "geo_type": "vector",
     "keyStats": {
       "Name": {
         "Afloramientos rocosos masivos": {
@@ -139,8 +129,124 @@
         }
       }
     },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "seabed_morphology_clipped",
+    "classKeys": [
+      "Name"
+    ],
+    "created": "2023-10-30T22:13:31.066Z",
+    "lastUpdated": "2023-10-30T22:13:31.066Z",
+    "src": "data/src/Gulf of Cadiz/Analytics/seabed_morphology_clipped.geojson",
     "propertiesToKeep": [
       "Name"
     ]
+  },
+  {
+    "datasourceId": "seagrasses",
+    "geo_type": "vector",
+    "keyStats": {
+      "fanerogama": {
+        "Zostera noltei": {
+          "count": 275,
+          "area": 4260855.116806586
+        },
+        "Cymodocea nodosa": {
+          "count": 23,
+          "area": 3275496.111182991
+        },
+        "Zostera marina": {
+          "count": 8,
+          "area": 883.4458956675101
+        }
+      },
+      "total": {
+        "total": {
+          "count": 306,
+          "sum": null,
+          "area": 7537234.673885245
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "CaracterizacionFanerogamasMarinas_2022",
+    "classKeys": [
+      "fanerogama"
+    ],
+    "created": "2023-11-01T19:04:47.329Z",
+    "lastUpdated": "2023-11-01T19:04:47.329Z",
+    "src": "data/src/Gulf of Cadiz/Analytics/CaracterizacionFanerogamasMarinas_2022.fgb",
+    "propertiesToKeep": [
+      "fanerogama"
+    ]
+  },
+  {
+    "datasourceId": "bay_full",
+    "geo_type": "vector",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 1,
+          "sum": null,
+          "area": 106808397.04872562
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "cadiz_bay_full",
+    "classKeys": [],
+    "created": "2023-11-01T23:37:23.564Z",
+    "lastUpdated": "2023-11-01T23:37:23.564Z",
+    "src": "data/src/Gulf of Cadiz/Analytics/cadiz_bay_full.geojson",
+    "propertiesToKeep": []
+  },
+  {
+    "datasourceId": "bay_full_polygon",
+    "geo_type": "vector",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 1,
+          "sum": null,
+          "area": 106808397.04872562
+        }
+      }
+    },
+    "formats": [
+      "fgb"
+    ],
+    "layerName": "cadiz_bay_full_polygon",
+    "classKeys": [],
+    "created": "2023-11-03T22:27:44.896Z",
+    "lastUpdated": "2023-11-03T22:27:44.896Z",
+    "src": "data/src/Gulf of Cadiz/Analytics/cadiz_bay_full_polygon.geojson",
+    "propertiesToKeep": []
+  },
+  {
+    "src": "data/src/Gulf of Cadiz/Analytics/cadiz_bay_full_ids.geojson",
+    "layerName": "cadiz_bay_full_ids",
+    "geo_type": "vector",
+    "datasourceId": "bay_full_ids",
+    "formats": [
+      "fgb"
+    ],
+    "classKeys": [],
+    "created": "2023-11-03T23:31:01.649Z",
+    "lastUpdated": "2023-11-03T23:31:01.649Z",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 1,
+          "sum": null,
+          "area": 106808397.04872562
+        }
+      }
+    },
+    "propertiesToKeep": []
   }
 ]

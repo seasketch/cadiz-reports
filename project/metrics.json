@@ -97,5 +97,30 @@
               "datasourceId": "seabed_morphology"
           }
       ]
-  }
+  },
+  {
+    "metricId": "seagrassOverlap",
+    "type": "areaOverlap",
+    "layerId": "pHF5q9Zli",
+    "classes": [
+        {
+            "classKey": "fanerogama",
+            "classId": "Zostera noltei",
+            "display": "Zostera noltei",
+            "datasourceId": "seagrasses"
+        },
+        {
+            "classKey": "fanerogama",
+            "classId": "Cymodocea nodosa",
+            "display": "Cymodocea nodosa",
+            "datasourceId": "seagrasses"
+        },
+        {
+            "classKey": "fanerogama",
+            "classId": "Zostera marina",
+            "display": "Zostera marina",
+            "datasourceId": "seagrasses"
+        }
+    ]
+}
 ]

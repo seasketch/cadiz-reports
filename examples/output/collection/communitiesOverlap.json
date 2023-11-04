@@ -1,0 +1,315 @@
+{
+  "metrics": [
+    {
+      "metricId": "communitiesOverlap",
+      "sketchId": "21848",
+      "classId": "Asociación de Cymodocea nodosa sobre arenas fangosas someras en modo calmo",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "seagrass-zone"
+      }
+    },
+    {
+      "metricId": "communitiesOverlap",
+      "sketchId": "21832",
+      "classId": "Asociación de Cymodocea nodosa sobre arenas fangosas someras en modo calmo",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "zone-north"
+      }
+    },
+    {
+      "metricId": "communitiesOverlap",
+      "sketchId": "21849",
+      "classId": "Asociación de Cymodocea nodosa sobre arenas fangosas someras en modo calmo",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "communitiesOverlap",
+      "sketchId": "21848",
+      "classId": "Asociación de Zostera noltii sobre arenas fangosas someras en modo calmo",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "seagrass-zone"
+      }
+    },
+    {
+      "metricId": "communitiesOverlap",
+      "sketchId": "21832",
+      "classId": "Asociación de Zostera noltii sobre arenas fangosas someras en modo calmo",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "zone-north"
+      }
+    },
+    {
+      "metricId": "communitiesOverlap",
+      "sketchId": "21849",
+      "classId": "Asociación de Zostera noltii sobre arenas fangosas someras en modo calmo",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "communitiesOverlap",
+      "sketchId": "21848",
+      "classId": "Asociación de Caulerpa prolifera sobre arenas fangosas someras en modo calmo",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "seagrass-zone"
+      }
+    },
+    {
+      "metricId": "communitiesOverlap",
+      "sketchId": "21832",
+      "classId": "Asociación de Caulerpa prolifera sobre arenas fangosas someras en modo calmo",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "zone-north"
+      }
+    },
+    {
+      "metricId": "communitiesOverlap",
+      "sketchId": "21849",
+      "classId": "Asociación de Caulerpa prolifera sobre arenas fangosas someras en modo calmo",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "communitiesOverlap",
+      "sketchId": "21848",
+      "classId": "Comunidad de Venus",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "seagrass-zone"
+      }
+    },
+    {
+      "metricId": "communitiesOverlap",
+      "sketchId": "21832",
+      "classId": "Comunidad de Venus",
+      "groupId": null,
+      "geographyId": null,
+      "value": 4958340.146477213,
+      "extra": {
+        "sketchName": "zone-north"
+      }
+    },
+    {
+      "metricId": "communitiesOverlap",
+      "sketchId": "21849",
+      "classId": "Comunidad de Venus",
+      "groupId": null,
+      "geographyId": null,
+      "value": 4958340.146477213,
+      "extra": {
+        "sketchName": "collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "communitiesOverlap",
+      "sketchId": "21848",
+      "classId": "Sustratos duros no vegetados",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "seagrass-zone"
+      }
+    },
+    {
+      "metricId": "communitiesOverlap",
+      "sketchId": "21832",
+      "classId": "Sustratos duros no vegetados",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "zone-north"
+      }
+    },
+    {
+      "metricId": "communitiesOverlap",
+      "sketchId": "21849",
+      "classId": "Sustratos duros no vegetados",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "communitiesOverlap",
+      "sketchId": "21848",
+      "classId": "Comunidad de Algas Esciáfilas Infralitorales en Régimen Calmo con facies de gorgoniarios",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "seagrass-zone"
+      }
+    },
+    {
+      "metricId": "communitiesOverlap",
+      "sketchId": "21832",
+      "classId": "Comunidad de Algas Esciáfilas Infralitorales en Régimen Calmo con facies de gorgoniarios",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "zone-north"
+      }
+    },
+    {
+      "metricId": "communitiesOverlap",
+      "sketchId": "21849",
+      "classId": "Comunidad de Algas Esciáfilas Infralitorales en Régimen Calmo con facies de gorgoniarios",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "communitiesOverlap",
+      "sketchId": "21848",
+      "classId": "Comunidad de Algas Fotófilas Infralitorales",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "seagrass-zone"
+      }
+    },
+    {
+      "metricId": "communitiesOverlap",
+      "sketchId": "21832",
+      "classId": "Comunidad de Algas Fotófilas Infralitorales",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "zone-north"
+      }
+    },
+    {
+      "metricId": "communitiesOverlap",
+      "sketchId": "21849",
+      "classId": "Comunidad de Algas Fotófilas Infralitorales",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "collection",
+        "isCollection": true
+      }
+    }
+  ],
+  "sketch": {
+    "id": 21849,
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "id": 21848,
+        "bbox": [
+          -6.235814,
+          36.46631,
+          -6.2191205,
+          36.479164
+        ],
+        "type": "Feature",
+        "properties": {
+          "5235": "seagrass-zone",
+          "id": "21848",
+          "name": "seagrass-zone",
+          "postId": null,
+          "userId": "128",
+          "userSlug": "Peter",
+          "createdAt": "2023-11-01T20:09:13.372659+00:00",
+          "updatedAt": "2023-11-01T20:57:58.382201+00:00",
+          "collectionId": "21849",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "608",
+          "userAttributes": null
+        },
+        "geometry": null
+      },
+      {
+        "id": 21832,
+        "bbox": [
+          -6.324736,
+          36.580025,
+          -6.2945857,
+          36.598503
+        ],
+        "type": "Feature",
+        "properties": {
+          "5235": "zone-north",
+          "id": "21832",
+          "name": "zone-north",
+          "postId": null,
+          "userId": "128",
+          "userSlug": "Peter",
+          "createdAt": "2023-10-30T22:15:58.796122+00:00",
+          "updatedAt": "2023-11-01T20:57:59.630636+00:00",
+          "collectionId": "21849",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "608",
+          "userAttributes": null
+        },
+        "geometry": null
+      }
+    ],
+    "properties": {
+      "4767": "collection",
+      "id": "21849",
+      "name": "collection",
+      "postId": null,
+      "userId": "128",
+      "userSlug": "Peter",
+      "createdAt": "2023-11-01T20:57:55.077233+00:00",
+      "updatedAt": "2023-11-01T20:57:59.630636+00:00",
+      "collectionId": null,
+      "isCollection": true,
+      "sharedInForum": false,
+      "sketchClassId": "491",
+      "userAttributes": null
+    }
+  }
+}
